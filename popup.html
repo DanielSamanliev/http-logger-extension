@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTTP Request Logger</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>HTTP Request Logger</h1>
+  <label>
+    <input type="checkbox" id="enable-logging"> Enable Logging
+  </label>
+  <button id="clear-log">Clear Log</button>
+  <label>
+    Max Log Entries:
+    <input type="number" id="max-entries" value="0">
+  </label>
+  <button id="export-log">Export Log</button>
+  <label>Logs</label>
+  <ul id="log"></ul>
+
+  <script src="popup.js"></script>
+</body>
+</html>
